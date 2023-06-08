@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 별하의 IT 저장소
+title: byeolha's Security Repository
 email: onse3714@naver.com
 author: GitHub User
 
@@ -208,6 +208,9 @@ yat:
 markdown: kramdown
 kmarkdown:
   input: GFM
+  syntax_highlighter: rouge
+# kmarkdown:
+#   input: GFM
 
 plugins:
   - jekyll-feed
